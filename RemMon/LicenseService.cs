@@ -58,12 +58,12 @@ internal sealed class LicenseService
 	/*private const string ActivateUrl = "https://r-mont.ru/api/license/activate";
 	private const string CheckUrl = "https://r-mont.ru/api/license/check";
 	private const string DeactivateUrl = "https://r-mont.ru/api/license/deactivate";*/
+	//private const string PublicKeyPem = "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEApAT1UnHwdSiY3VYb63OE\nvcZKK4k+DSdHL0VImWxhEIy1RvjqbvKz4xQo/xFtYtim9v/l0AeSnh97U0mV0PPi\nta9YzQJEvuW0EyBcFrSAUVdMsNcbmpD3BVF6CgNxJz3Q6Bc1DrgkyebrSCNH/NDl\nVtd54+JhPgKfNJXnJD62NFbF1xgGymZY3xMhrPeKLjjK0ZwjkqdDq4KiQmeTxbH6\nD9MY7fnL84ProqhE45jZ+YYbWXF3iLUeVQm4hL9Xjy+Wwa8nPvUeeUaqR7Wz05NL\nvzARIh/KJxWAarqqNiauMYfbvn1pwTzedh1xAU8WfweKWpvz6BeWo2siIrvtMH9B\nl4cT/x0YBtETEndcmVvEZVQYira/LsB08//ncZaLxL08Cy+hvUbM1TAn42d2xt8Z\nhBymIK310EMKzOhTAuAGvmUurt/8TKnGg2V2nlGsfVZzuipgraFkWcWo4aSSb3sC\n7HhKRmw4uswo27lnYBrkBd4ODS3UqyJXuwnds0Yo6p00zsOdq98V2O25jQ/oJVCE\nHqm4r1ctCbxoBnj75RKP1XDlMRAl4tHUk4dooGtu282o0rtnxdGDYAQH0BhwxDTF\nIg461l54SId86Rasz/HCxHu5YcA3ezuUcobRl05chQy9FMmGJ6RtG9kqgt8Zlpkl\nVkyNd4Sf1hcVSEYGaDXg1QMCAwEAAQ==\n-----END PUBLIC KEY-----";
     private const string ActivateUrl = "http://localhost/api/license/activate";
 	private const string CheckUrl = "http://localhost/api/license/check";
 	private const string DeactivateUrl = "http://localhost/api/license/deactivate";
-    private const string PublicKeyPem = "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEApAT1UnHwdSiY3VYb63OE\nvcZKK4k+DSdHL0VImWxhEIy1RvjqbvKz4xQo/xFtYtim9v/l0AeSnh97U0mV0PPi\nta9YzQJEvuW0EyBcFrSAUVdMsNcbmpD3BVF6CgNxJz3Q6Bc1DrgkyebrSCNH/NDl\nVtd54+JhPgKfNJXnJD62NFbF1xgGymZY3xMhrPeKLjjK0ZwjkqdDq4KiQmeTxbH6\nD9MY7fnL84ProqhE45jZ+YYbWXF3iLUeVQm4hL9Xjy+Wwa8nPvUeeUaqR7Wz05NL\nvzARIh/KJxWAarqqNiauMYfbvn1pwTzedh1xAU8WfweKWpvz6BeWo2siIrvtMH9B\nl4cT/x0YBtETEndcmVvEZVQYira/LsB08//ncZaLxL08Cy+hvUbM1TAn42d2xt8Z\nhBymIK310EMKzOhTAuAGvmUurt/8TKnGg2V2nlGsfVZzuipgraFkWcWo4aSSb3sC\n7HhKRmw4uswo27lnYBrkBd4ODS3UqyJXuwnds0Yo6p00zsOdq98V2O25jQ/oJVCE\nHqm4r1ctCbxoBnj75RKP1XDlMRAl4tHUk4dooGtu282o0rtnxdGDYAQH0BhwxDTF\nIg461l54SId86Rasz/HCxHu5YcA3ezuUcobRl05chQy9FMmGJ6RtG9kqgt8Zlpkl\nVkyNd4Sf1hcVSEYGaDXg1QMCAwEAAQ==\n-----END PUBLIC KEY-----";
-
-
+    private const string PublicKeyPem = "nope";
+    
 	private static readonly JsonSerializerOptions JsonOptions = new JsonSerializerOptions
 	{
 		PropertyNameCaseInsensitive = true,
