@@ -62,7 +62,15 @@ internal sealed class LicenseService
     private const string ActivateUrl = "http://localhost/api/license/activate";
 	private const string CheckUrl = "http://localhost/api/license/check";
 	private const string DeactivateUrl = "http://localhost/api/license/deactivate";
-    private const string PublicKeyPem = "nope";
+    private const string PublicKeyPem = @"-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA31kKmX1k3/K+a8y47lmj
+AkQxSdmpD7jtwJHADaVDEFb8bn1dZ09wDEOj1b5xLX23TjZAmK1CQj94/nWV939m
+3bscTJekApD3QG8kNcdWmY1adzDUokVtD9DQGxzqejUEQ1SYhm10r8+e/hNp2007
+ROkavWPOcylt2+Id3sqJtR3+n3773GFlMioV/Wr65StyofrFUI5C1nzXmMtyJ2Q1
+bteKzuYpwsTQ/2UVb4hifm9Mts3bE5RYS6wq1gEqpTifDsutx+Yw4nr6N0QVSJtu
+DFCaYO08tRr2t7Z4su4yyMYVsZ+KU8bLOXI+QujdpGAGz+/j/RIEFLiK5QzXJK0S
+0QIDAQAB
+-----END PUBLIC KEY-----"; //да ваше крутяк
     
 	private static readonly JsonSerializerOptions JsonOptions = new JsonSerializerOptions
 	{
